@@ -3,6 +3,14 @@
 
 A geospatial AI pipeline for building-level solar potential assessment in Central Accra, Ghana.
 
+---
+Dashboard Preview
+
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Building-Level-Solar-Suitability-Mapping-in-Urban-Ghana/blob/main/solar.gif" />
+</p>
+
+---
 
 
 1. Project Objective
