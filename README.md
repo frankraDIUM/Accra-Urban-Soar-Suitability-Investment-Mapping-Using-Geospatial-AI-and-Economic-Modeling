@@ -1,17 +1,18 @@
 # 🌞 Building-Level-Solar-Suitability-Mapping-in-Urban-Ghana
 **Accra Solar Rooftop Suitability & Investment Dashboard**
+
 A geospatial AI pipeline for building-level solar potential assessment in Central Accra, Ghana.
 
 
 
 1. Project Objective
-Develop a scalable geospatial AI pipeline to:
+  Develop a scalable geospatial AI pipeline to:
 
-Detect and characterize individual building rooftops
-Assess solar suitability per building using roof geometry and environmental factors
-Estimate annual solar energy generation (kWh)
-Calculate economic viability (payback period and Net Present Value)
-Deliver an interactive dashboard for decision-makers
+  Detect and characterize individual building rooftops
+  Assess solar suitability per building using roof geometry and environmental factors
+  Estimate annual solar energy generation (kWh)
+  Calculate economic viability (payback period and Net Present Value)
+  Deliver an interactive dashboard for decision-makers
 
 2. Study Area
 
