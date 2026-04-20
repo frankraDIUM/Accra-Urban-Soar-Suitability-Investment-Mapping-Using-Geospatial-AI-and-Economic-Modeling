@@ -5,34 +5,39 @@ A geospatial AI pipeline and interactive decision-support tool for urban solar p
 
 
 ---
+
 Dashboard Preview
 
 <p align="center">
   <img src="https://github.com/frankraDIUM/Building-Level-Solar-Suitability-Mapping-in-Urban-Ghana/blob/main/Solar.gif" />
 </p>
-
+---
 Solar Potential Density
 <p align="center">
   <img src="https://github.com/frankraDIUM/Building-Level-Solar-Suitability-Mapping-in-Urban-Ghana/blob/main/Solar1.gif" />
 </p>
-
+---
 Spatial Clusters
 <p align="center">
   <img src="https://github.com/frankraDIUM/Building-Level-Solar-Suitability-Mapping-in-Urban-Ghana/blob/main/Solar2.gif" />
 </p>
-
+---
 Top Investment Opportunities
 <p align="center">
   <img src="https://github.com/frankraDIUM/Building-Level-Solar-Suitability-Mapping-in-Urban-Ghana/blob/main/Solar3.gif" />
 </p>
+
 ---
 
 Summary
 
   This project developed a scalable, end-to-end geospatial AI pipeline to assess rooftop solar potential across Accra, Ghana. 
+  
   The system integrates high-resolution building footprints, terrain-derived slope and aspect, NASA POWER solar irradiance data, 
   realistic economic modeling (including dynamic NPV and payback), shadow attenuation via building height proxies, 
+  
   H3 hexagonal aggregation for scalability, and Getis-Ord Gi* hotspot analysis. 
+  
   The result is an interactive Streamlit dashboard that supports multi-scale decision-making, from individual building investment to neighborhood-level policy planning.
 
 Key outcomes:
@@ -57,12 +62,13 @@ Detect and characterize individual building rooftops using open building footpri
 *2. Methodology & Pipeline*
 Phase 1–2: Data Acquisition & Building Footprints
 
-Combined Microsoft Global Building Footprints and Google Open Buildings datasets, filtered to Accra bounding box, resulting in 632,195 valid building polygons.
+  Combined Microsoft Global Building Footprints and Google Open Buildings datasets, 
+  filtered to Accra bounding box, resulting in 632,195 valid building polygons.
 
 Phase 3–4: Terrain & Solar Resource
 
-Copernicus DEM (30m) → derived slope and aspect at building centroids.
-NASA POWER API (2020–2025) → annual GHI of ~1,779 kWh/m²/year used as baseline.
+  Copernicus DEM (30m) → derived slope and aspect at building centroids.
+  NASA POWER API (2020–2025) → annual GHI of ~1,779 kWh/m²/year used as baseline.
 
 Phase 5: Rooftop Geometry & Suitability Modeling
 
