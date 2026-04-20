@@ -3,6 +3,7 @@
 
 A geospatial AI pipeline and interactive decision-support tool for urban solar potential in Central Accra, Ghana.
 
+
 ---
 Dashboard Preview
 
@@ -11,6 +12,22 @@ Dashboard Preview
 </p>
 
 ---
+
+Summary
+
+  This project developed a scalable, end-to-end geospatial AI pipeline to assess rooftop solar potential across Accra, Ghana. 
+  The system integrates high-resolution building footprints, terrain-derived slope and aspect, NASA POWER solar irradiance data, 
+  realistic economic modeling (including dynamic NPV and payback), shadow attenuation via building height proxies, 
+  H3 hexagonal aggregation for scalability, and Getis-Ord Gi* hotspot analysis. 
+  The result is an interactive Streamlit dashboard that supports multi-scale decision-making, from individual building investment to neighborhood-level policy planning.
+
+Key outcomes:
+
+  - Analyzed 632,195 buildings in the Greater Accra area.
+  - Generated realistic solar potential estimates (mean ~12,408 kWh/year per building after shadow adjustment).
+  - Produced dynamic ROI metrics with user-adjustable parameters (tariff, discount rate, self-consumption, cost per kW).
+  - Identified spatial clusters of high solar investment potential using hotspot analysis.
+  - Delivered a production-ready interactive dashboard with four distinct map views.
 
 
 *1. Objectives*
@@ -94,6 +111,6 @@ Built with Streamlit + Folium, featuring:
 
 *6. Conclusion*
 
-This project demonstrates a practical, scalable approach to urban solar potential assessment tailored to Ghanaian conditions (unreliable grid, high electricity costs, rapid urbanization). 
-The resulting dashboard serves as a powerful decision-support tool for households, businesses, utilities, and policymakers. 
-It bridges technical geospatial analysis with economic realism and spatial intelligence, providing actionable insights for accelerating solar adoption in Accra and similar African cities.
+  This project demonstrates a practical, scalable approach to urban solar potential assessment tailored to Ghanaian conditions (unreliable grid, high electricity costs, rapid urbanization). 
+  The resulting dashboard serves as a powerful decision-support tool for households, businesses, utilities, and policymakers. 
+  It bridges technical geospatial analysis with economic realism and spatial intelligence, providing actionable insights for accelerating solar adoption in Accra and similar African cities.
